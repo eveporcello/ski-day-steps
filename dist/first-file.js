@@ -1,14 +1,11 @@
-const { createElement } = React
 const { render } = ReactDOM
 
-const title = createElement(
+render(
     <h1 id='title'
         className='header'
-        style={{backgroundColor: 'orange', color: 'white' }} />
-)
-
-render(
-    title,
+        style={{backgroundColor: 'orange', color: 'white' }}>
+        Hello World!
+    </h1>,
     document.getElementById('react-container')
 )
 
