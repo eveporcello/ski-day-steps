@@ -1,0 +1,21 @@
+{
+  "name": "ski-day-steps",
+  "version": "0.0.1",
+  "description": "A Ski Day Step by Step",
+  "main": "first-file.js",
+  "scripts": {
+    "start": "httpster -d ./dist -p 3000"
+  },
+  "repository": {
+    "url": "git+https://github.com/eveporcello/ski-day-steps.git"
+  },
+  "author": "Eve Porcello",
+  "license": "MIT",
+  "homepage": "https://github.com/eveporcello/ski-day-steps#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
