@@ -1,2 +1,12 @@
-const hi = React.createElement('h1', null, 'Hello World!')
-ReactDOM.render(hi, document.getElementById('react-container'))
+var style = {
+    backgroundColor: 'orange',
+    color: 'white',
+    fontFamily: 'verdana'
+}
+
+
+const title = React.createElement('h1',
+                                  {id:'title', className: 'header', style: style},
+                                  'Hello World!')
+
+ReactDOM.render(title, document.getElementById('react-container'))
